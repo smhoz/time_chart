@@ -5,6 +5,10 @@
 
 An amazing time chart in Flutter.
 
+**How the animation works?**
+
+The animation is created by determining the top hour and the bottom hour. The top hour denotes the most top hour displayed at the current scroll position, while the bottom hour represents its opposite. When scrolling occurs, the animation is triggered by comparing the previous top hour and bottom hour with the top hour and bottom hour after scrolling.
+
 ### Chart Types
 
 |                          TimeChart                           |                         AmountChart                          |
